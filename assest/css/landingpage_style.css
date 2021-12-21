@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color: #f0dede;
+}
+
+body {
+    position: relative;
+}
+
+.theme-corlor {
+    color: var(--main-color);
+}
+
+.navbar-brand {
+    color: #3875e7;
+    border-bottom: 2px solid #3875e7;
+
+}
+
+.navbar ul li a.act,
+.navbar ul li a:hover {
+    background: #3875e7;
+    padding: 7px 15px;
+    margin: 0px 5px;
+}
+
+.main {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("../images/home-1.jpg");
+    height: 100vh;
+}
+
+.page-section {
+    padding: 6rem 0;
+}
+
+.page-section h2.section-heading,
+.page-section .section-heading.h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+section#contact {
+    background-color: #212529;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section#contact form#contactForm .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.page-section h3.section-subheading,
+.page-section .section-subheading.h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Roboto Slab", -apple-system;
+    margin-bottom: 4rem;
+    color: white;
+}
